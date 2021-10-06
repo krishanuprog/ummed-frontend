@@ -45,9 +45,9 @@ body {
   display: flex;
   flex-flow: row wrap;
   align-items: center;
-  height: 300px;
-  width: 350px;
-  max-width: 350px;
+  height: 350px;
+  width: 500px;
+  max-width: 500px;
   margin: auto;
 }
 
@@ -56,17 +56,21 @@ body {
   color: forestgreen;
   font-size: large;
   font-family:arial;
-  font-weight: 800;
+  font-weight: 900;
 }
 
 .form-inline input {
   vertical-align: middle;
-  margin: 2px 2px 2px 0;
+  margin: 2px 2px 2px 2;
   padding: 2px;
   background-color: #fff;
-  border: 1px solid #ddd;
-  height: 30px;
-  width: 200px;
+  border: 2px solid #ddd;
+  border-top-left-radius:2px;  
+  border-top-right-radius:2px;  
+  border-bottom-right-radius:2px;  
+  border-bottom-left-radius:2px;
+  height: 40px;
+  width: 300px;
 }
 
 .form-inline .form-select {
@@ -75,12 +79,16 @@ body {
   padding: 2px;
   background-color: #fff;
   border: 1px solid #ddd;
-  height: 30px;
-  width: 200px;
+  border-top-left-radius:2px;  
+  border-top-right-radius:2px;  
+  border-bottom-right-radius:2px;  
+  border-bottom-left-radius:2px;
+  height: 40px;
+  width: 300px;
 }
 
 .form-inline .form-signup-button {
-	padding: 10px 10px;
+	padding: 5px 5px;
 	background-color: forestgreen;
 	border: 2px solid #ddd;
 	border-color:white;
@@ -90,15 +98,15 @@ body {
 	border-top-right-radius:10px;  
 	border-bottom-right-radius:10px;  
 	border-bottom-left-radius:10px;
-	height: 50px;
-	width: 120px;
+	height: 42px;
+	width: 130px;
 	font-size: large;
 	font-family:arial;
 	
 }
 
 .form-inline .form-login-button {
-	padding: 10px 10px;
+	padding: 5px 5px;
 	background-color: SlateBlue;
 	border: 2px solid #ddd;
 	border-color:white;
@@ -108,8 +116,8 @@ body {
 	border-top-right-radius:10px;  
 	border-bottom-right-radius:10px;  
 	border-bottom-left-radius:10px;
-	height: 50px;
-	width: 120px;
+	height: 42px;
+	width: 130px;
 	font-size: large;
 	font-family:arial;
 	
